@@ -5,9 +5,9 @@ from api.presenters.controllers import ScraperController
 
 
 def scraper_composer() -> ScraperController:
-    """Composing Search Route
+    """Composing Scraper Route
     :param - None
-    :return - Object with Search Route
+    :return - Object with Scraper Route
     """
 
     google_scraper = GoogleScraper()
